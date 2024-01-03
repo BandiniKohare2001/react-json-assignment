@@ -40,3 +40,56 @@ button{
     padding: 10px;
     border: none;
 }
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    /* margin-left: 70px;  */
+      /* background-color: aqua; */
+}
+.main{
+    width: 500px;
+    margin-left: 70px; 
+      /* background-color: aqua; */
+      padding: 20px;
+}
+img{
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.review{
+    position: relative;
+   margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.1);
+    height: 200px;
+    margin-left: -100px;
+    width: 200%;
+    padding: 100px 100px;
+}
+.review h2{
+    position: absolute;
+   text-align: center;
+   /* width: 600px; */
+   left: 250px;
+   right: 250px;
+}
+.review h3{
+    position: absolute;
+   text-align: center;
+   /* width: 600px; */
+   left: 250px;
+   right: 250px;
+   top: 230px;
+}
+.review p{
+    position: absolute;
+   text-align: center;
+   /* width: 600px; */
+   left: 250px;
+   right: 250px;
+   top: 260px;
+}
